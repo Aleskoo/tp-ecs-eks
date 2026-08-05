@@ -1,0 +1,19 @@
+# Credentials & secrets — ne jamais committer
+*.csv
+*.pem
+*.key
+*credentials*
+*accessKeys*
+.env
+.env.*
+*.tfvars
+aws-exports.js
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.log
