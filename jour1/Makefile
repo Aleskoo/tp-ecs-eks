@@ -18,6 +18,6 @@ build:
 push: login build
 	docker push $(IMAGE)
 
-deploy: push # pousse puis force le redéploiement du service
+deploy: push
 	aws ecs update-service --cluster bc-cluster \
 		--service web-bc-svc --force-new-deployment --region $(REGION)
