@@ -12,6 +12,14 @@ aws-exports.js
 # Supports de cours (non destinés à être publiés)
 *.pdf
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+crash.log
+crash.*.log
+
 # OS / éditeur
 .DS_Store
 Thumbs.db
