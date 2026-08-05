@@ -9,6 +9,9 @@
 *.tfvars
 aws-exports.js
 
+# Supports de cours (non destinés à être publiés)
+*.pdf
+
 # OS / éditeur
 .DS_Store
 Thumbs.db
