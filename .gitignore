@@ -20,6 +20,9 @@ tfplan
 crash.log
 crash.*.log
 
+# Sous-projet independant (repo git distinct)
+/td-kyverno/
+
 # OS / éditeur
 .DS_Store
 Thumbs.db
