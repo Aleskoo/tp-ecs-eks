@@ -20,8 +20,9 @@ tfplan
 crash.log
 crash.*.log
 
-# Sous-projet independant (repo git distinct)
+# Sous-projets independants (repos git distincts)
 /td-kyverno/
+/td-jenkins/
 
 # OS / éditeur
 .DS_Store
